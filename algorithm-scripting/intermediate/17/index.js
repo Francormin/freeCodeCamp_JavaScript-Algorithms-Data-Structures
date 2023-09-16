@@ -1,8 +1,12 @@
-// Binary Agents
+/*
+       _______________
+----- | Binary Agents | -----
 
-// Return an English translated sentence of the passed binary string.
+Return an English translated sentence of the passed binary string.
 
-// The binary string will be space separated.
+The binary string will be space separated.
+
+*/
 
 function binaryAgent(str) {
   const biString = str.split(" ");
