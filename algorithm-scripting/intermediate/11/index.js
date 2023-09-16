@@ -1,6 +1,11 @@
-// Convert HTML Entities
+/*
+       _______________________
+----- | Convert HTML Entities | -----
 
-// Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
+Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their
+corresponding HTML entities.
+
+*/
 
 function convertHTML(str) {
   let charArr = str.split("");
