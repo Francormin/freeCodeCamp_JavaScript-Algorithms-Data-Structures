@@ -18,7 +18,7 @@ equal to the change due.
 Otherwise, return { status: "OPEN", change: [...] }, with the change due in coins and bills, sorted in
 highest to lowest order, as the value of the change key.
 
-|      Currency Unit      |	         Amount          |
+|      Currency Unit      |          Amount          |
 |-------------------------|--------------------------|
 |          Penny          |      $0.01 (PENNY)       |
 |          Nickel         |      $0.05 (NICKEL)      |
