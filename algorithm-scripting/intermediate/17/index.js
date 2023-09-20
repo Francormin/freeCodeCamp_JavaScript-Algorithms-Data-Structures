@@ -12,7 +12,7 @@ function binaryAgent(str) {
   const biString = str.split(" ");
   const uniString = [];
 
-  for (var i = 0; i < biString.length; i++) {
+  for (let i = 0; i < biString.length; i++) {
     uniString.push(String.fromCharCode(parseInt(biString[i], 2)));
   }
 
